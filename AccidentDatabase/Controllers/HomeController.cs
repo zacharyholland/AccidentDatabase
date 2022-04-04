@@ -11,27 +11,20 @@ namespace AccidentDatabase.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private IAccidentRepository repo { get; set; }
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IAccidentRepository temp)
         {
-            _logger = logger;
+            repo = temp;
         }
 
         public IActionResult Index()
         {
-            return View();
-        }
+            var x = repo.Accidents
+                .OrderBy(a => a.CRASH_ID)
+                .ToList();
 
-        public IActionResult Privacy()
-        {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

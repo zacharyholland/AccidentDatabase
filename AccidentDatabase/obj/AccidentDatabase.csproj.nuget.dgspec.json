@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zacharyholland/Projects/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj": {}
+    "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj": {}
   },
   "projects": {
-    "/Users/zacharyholland/Projects/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj": {
+    "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zacharyholland/Projects/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj",
+        "projectUniqueName": "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj",
         "projectName": "AccidentDatabase",
-        "projectPath": "/Users/zacharyholland/Projects/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj",
+        "projectPath": "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj",
         "packagesPath": "/Users/zacharyholland/.nuget/packages/",
-        "outputPath": "/Users/zacharyholland/Projects/AccidentDatabase/AccidentDatabase/obj/",
+        "outputPath": "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zacharyholland/.config/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
