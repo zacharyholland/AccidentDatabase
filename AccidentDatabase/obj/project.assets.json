@@ -871,24 +871,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/zacharyholland/.nuget/packages/": {}
+    "C:\\Users\\strik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\strik\\OneDrive\\Documents\\AccidentDatabase\\AccidentDatabase\\AccidentDatabase.csproj",
       "projectName": "AccidentDatabase",
-      "projectPath": "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/AccidentDatabase.csproj",
-      "packagesPath": "/Users/zacharyholland/.nuget/packages/",
-      "outputPath": "/Users/zacharyholland/Documents/GitHub/AccidentDatabase/AccidentDatabase/obj/",
+      "projectPath": "C:\\Users\\strik\\OneDrive\\Documents\\AccidentDatabase\\AccidentDatabase\\AccidentDatabase.csproj",
+      "packagesPath": "C:\\Users\\strik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\strik\\OneDrive\\Documents\\AccidentDatabase\\AccidentDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/zacharyholland/.config/NuGet/NuGet.Config"
+        "C:\\Users\\strik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -934,7 +936,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
