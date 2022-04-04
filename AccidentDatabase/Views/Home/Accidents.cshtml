@@ -6,3 +6,17 @@
 
 @model List<Accident>
 
+<table class="table table-bordered table-striped">
+
+    @foreach (var a in Model)
+            {
+                <tr>
+                    <td>@a.crash_id</td>
+                    <td>@a.city</td>
+                    <td>@a.county_name</td>
+                    <td>@a.crash_severity_id</td>
+                </tr>
+            }
+
+
+</table>

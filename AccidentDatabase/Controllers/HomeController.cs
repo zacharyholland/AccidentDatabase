@@ -20,8 +20,12 @@ namespace AccidentDatabase.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public IActionResult Accidents()
+        {
             var x = repo.Accidents
-                .OrderBy(a => a.CRASH_ID)
                 .ToList();
 
             return View();
